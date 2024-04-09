@@ -1,0 +1,30 @@
+{
+  "name": "native-vs-docker-nodejs-scaling",
+  "version": "1.0.0",
+  "description": "native node js clustering vs docker scale option benchmark",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadeghmohebbi/native-vs-docker-nodejs-scaling.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cluster",
+    "scale",
+    "docker",
+    "benchmark"
+  ],
+  "author": "Sadegh Mohebbi <mohebbi.sadegh@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/sadeghmohebbi/native-vs-docker-nodejs-scaling/issues"
+  },
+  "homepage": "https://github.com/sadeghmohebbi/native-vs-docker-nodejs-scaling#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
