@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  node-app:
+    build:
+      context: node-app/
+      dockerfile: Dockerfile.cluster
+    restart: always
+
+  nginx:
+    build:
+      context: nginx/
+      dockerfile: Dockerfile.cluster
+    restart: always
+    depends_on:
+      - node-app
+    ports:
+      - 8080:8080
