@@ -16,7 +16,7 @@ const express = require('express')
 
 const app = express()
 const Port = process.env.POST ?? 3000
-Math.log10
+
 app.get('/', (req, res) => {
   return res.status(200).send('open for discover: <a href="/calc/log10/20">log10(20)</a>')
 })
