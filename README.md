@@ -1,5 +1,5 @@
 # Docker Scale vs Node Cluster
-benchmark (stress test) for sample node js backend app
+benchmark (stress test) for sample node js backend app to choose one of these scale up options: docker scale or node js native cluster library
 
 # How to run
 
@@ -7,7 +7,7 @@ requirements:
 - docker and compose plugin
 - k6 (from grafana) [to install it, see this page](https://grafana.com/docs/k6/latest/set-up/install-k6/)
 
-running node backend app that scaled vi docker deploy scale feature:
+running node backend app that scaled via docker deploy scale feature:
 
 ```
 sudo docker compose -f docker-compose.scaled.yml up -d --build
